@@ -341,6 +341,9 @@ a{
   transition: all 0.4s ease;
   background-color: rgba(0, 0, 0, 0.7);
 }
+.gallery-wrap .gallery-items:before{
+  display: none;
+}
 .gallery-items:hover:before,
 .gallery-items.slick-current:before{
   opacity: 1;
@@ -350,17 +353,17 @@ a{
 }
 .floated-btn{
   position: absolute;
-  top: 80%;
+  bottom: -40px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   opacity: 0;
   transition: all 0.4s ease;
 }
 .gallery-items:hover .floated-btn,
 .gallery-items.slick-current .floated-btn{
   opacity: 1;
-  top: 50%;
+  bottom: 40px;
 }
 .floated-btn .btn{
   white-space: nowrap;
@@ -480,9 +483,38 @@ a{
   cursor: pointer;
   font-size: 40px;
 }
-
-
-
+.gallery-quotes{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:35px 40px;
+  font-size: 20px;
+  color: #000;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.view-icon{
+  position: absolute;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  right: 20px;
+  border-radius: 50px;
+  color: #000;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conntect-text{
+  font-size: 19px;
+  font-weight: 600;
+  color: #FF3C20;
+  margin-bottom: 18px;
+}
 
 
 
@@ -770,12 +802,19 @@ a{
   .banner-content h1,
   .banner-content p{
     color: #2e2e2e;
+    text-shadow: none;
+  }
+  .cell-banner-bg{
+    background: none;
+  }
+  .banner-content{
+    background: linear-gradient(124deg,rgba(232, 232, 232, 1) 0%, rgba(209, 209, 209, 1) 100%);
   }
   .banner-content .container {
     border-left: none;
     border-top: 3px solid #FF5C45;
     border-bottom: 3px solid #FF5C45;
-    padding: 20px;
+    padding: 30px;
   }
   .service-link{
     margin: 10px 0;
