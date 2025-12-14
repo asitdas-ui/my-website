@@ -489,31 +489,39 @@ a{
   bottom: 0;
   left: 0;
   right: 0;
-  padding:35px 40px;
-  font-size: 20px;
+  padding: 25px 30px;
+  font-size: 18px;
   color: #000;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
 }
 .view-icon{
   position: absolute;
   background-color: #fff;
-  width: 60px;
-  height: 60px;
+  width: 44px;
+  height: 44px;
   top: 20px;
   right: 20px;
   border-radius: 50px;
   color: #000;
-  font-size: 30px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 3px;
 }
 .conntect-text{
   font-size: 19px;
   font-weight: 600;
   color: #FF3C20;
   margin-bottom: 18px;
+}
+.img-row{
+  display: block;
+  position: relative;
+}
+.img-row + .img-row{
+  margin-top: 24px;
 }
 
 
