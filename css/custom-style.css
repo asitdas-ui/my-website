@@ -528,6 +528,27 @@ a{
   width: 20px;
   height: 20px;
 }
+.mt-70{
+  margin-top: 70px;
+}
+.testimonial-item{
+  text-align: center;
+}
+.testimonial-item p{
+  font-weight: normal;
+  color: #000;
+}
+.testimonial-item p strong{
+  font-weight: bold;
+}
+.testimonial-img{
+  margin: 0 auto 30px auto;
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 50px;
+  display: block;
+}
 
 
 
