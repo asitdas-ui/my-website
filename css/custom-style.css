@@ -777,6 +777,17 @@ a{
     border-left: none;
     padding: 0;
   }
+  .gallery-quotes {
+    padding: 14px 20px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .img-row + .img-row{
+    margin-top: 0;
+  }
+  .img-row{
+    margin: 10px 0;
+  }
 }
 @media (max-width: 576px) {
   .container {
