@@ -779,8 +779,9 @@ a{
   }
   .gallery-quotes {
     padding: 14px 20px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
+    position: static;
   }
   .img-row + .img-row{
     margin-top: 0;
