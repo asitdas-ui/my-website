@@ -327,19 +327,8 @@ a{
   background-color: #FF3C20;
 }
 .gallery-items{
-  margin: 0 15px;
+  margin: 0 5px;
   position: relative;
-}
-.gallery-items:before{
-  position: absolute;
-  content: '';
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: all 0.4s ease;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 .gallery-wrap .gallery-items:before{
   display: none;
@@ -523,7 +512,22 @@ a{
 .img-row + .img-row{
   margin-top: 24px;
 }
-
+.lb-number{
+  display: none !important;
+}
+.lb-caption{
+  font-weight: normal !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+.lb-dataContainer {
+  padding-top: 15px !important;
+}
+.lb-data .lb-close{
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+}
 
 
 
