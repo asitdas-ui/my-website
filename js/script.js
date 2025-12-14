@@ -81,6 +81,16 @@ $(document).ready(function () {
       }
     ]
   }); 
+  $('.testimonial-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false
+  });
+  
   $('.mobile-menu-icon').on('click', function() {
     $('body').toggleClass('menu-open');
   });
