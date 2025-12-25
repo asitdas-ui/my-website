@@ -728,6 +728,9 @@ a{
   .section-heading{
     font-size: 30px;
   } 
+  .play-btn{
+    font-size: 90px;
+  }
 }
 @media (max-width:991px){
   .slick-arrow {
@@ -899,6 +902,9 @@ a{
   }
   .img-row{
     margin: 10px 0;
+  }
+  .play-btn{
+    font-size: 50px;
   }
 }
 @media (max-width: 576px) {
