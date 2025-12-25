@@ -1,3 +1,14 @@
+const videoModal = document.getElementById('videoModal');
+const video = videoModal.querySelector('video');
+
+videoModal.addEventListener('shown.bs.modal', function () {
+  video.play();
+});
+
+videoModal.addEventListener('hidden.bs.modal', function () {
+  video.pause();
+  video.currentTime = 0;
+});
 $(document).ready(function () {
   $('.artiles-items-slider').slick({
     infinite: true,
@@ -105,4 +116,5 @@ $(document).ready(function () {
     mobileSrc:true
   });
 });
+
 
