@@ -906,6 +906,9 @@ a{
   .play-btn{
     font-size: 50px;
   }
+  .hide-mobile{
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .container {
