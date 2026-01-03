@@ -546,16 +546,7 @@ a{
 }
 .testimonial-img{
   margin: 0 auto 30px auto;
-  width: 150px;
-  height: 150px;
-  background-color: #ccc;
-  border-radius:100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: #818181;
-  overflow: hidden;
+  width: 230px;
 }
 .video-cell video{
   width: 100%;
@@ -613,7 +604,7 @@ a{
   }
 }
 .topics-list{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .topics-list p{
   margin-bottom: 5px;
@@ -663,26 +654,27 @@ textarea.form-control{
   height: 110px;
   resize: none;
 }
+.service-list-wrap{
+  border: 1px solid #ccc;
+}
+.service-list-wrap p{
+  padding: 15px 20px;
+  line-height: 1;
+  margin-bottom: 0 !important;
+}
+.service-list-wrap p + p{
+  border-top: 1px solid #ccc;
+}
 .service-list{
-  display: inline-block;
-  color: #fff;
-  background-color: #FF3C20;
-  padding: 9px 15px;
-  position: relative;
-  font-weight: 600;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
 }
-.service-list:after{
-  background-image: url('data:image/svg+xml,<svg width="42" height="93" viewBox="0 0 42 93" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M42 92.5L0 0V92.5H42Z" fill="%23FF3C20"/></svg>');
-  content: '';
-  height: 100%;
-  width: 42px;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  right: -30px;
-  background-size: 100% 100%;
+.service-list img{
+  width: 18px;
+  margin-right: 15px;
 }
-
 
 
 
@@ -722,12 +714,13 @@ textarea.form-control{
     font-size: 35px;
     margin-bottom: 25px;
     font-weight: normal;
-    text-transform: capitalize;
     line-height: 1.4;
+    font-family: "Playfair Display", serif;
   }
   .banner-content p{
     font-size: 21px !important;
     font-weight: 600;
+    font-family: "Playfair Display", serif;
   }
   .btn {
     padding: 10px 22px;
@@ -822,8 +815,11 @@ textarea.form-control{
     font-size: 14px;
   }
   .banner-content h1{
-    font-size: 30px;
+    font-size: 39px;
     margin-bottom: 20px;
+  }
+  .service-list{
+    justify-content: center;
   }
   .banner-content p {
     font-size: 29px;
@@ -952,10 +948,6 @@ textarea.form-control{
   }
   .hide-mobile{
     display: none;
-  }
-  .service-list:after{
-    width: 19px;
-    right: -18px;
   }
 }
 @media (max-width: 576px) {
